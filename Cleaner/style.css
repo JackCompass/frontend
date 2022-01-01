@@ -7,7 +7,6 @@
 
 body {
     height: 100vh;
-    border: 2px solid purple;
 }
 
 #user-entry-form {
@@ -16,7 +15,6 @@ body {
     left: 50%;
     /*Now using translate to put it in center*/
     transform: translate(-50%, -50%);
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -24,7 +22,6 @@ body {
 }
 
 form label {
-    border: 2px solid coral;
     text-align: center;
 }
 
@@ -33,6 +30,17 @@ form label {
     border-radius: 40px;
     border-style: solid;
     border-color: black;
+    outline: none;
+    padding: 15px;
+}
+
+#button {
+    width: 25%;
+    margin: auto;
+    height: 35px;
+    border-radius: 30px;
+    border-style: solid;
+
 }
 
 
