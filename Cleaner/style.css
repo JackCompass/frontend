@@ -7,6 +7,9 @@
 
 body {
     height: 100vh;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
 }
 
 #user-entry-form {
@@ -45,6 +48,7 @@ form label {
     font-weight: 800;
     font-size: 1.2rem;
 }
+
 
 
 
