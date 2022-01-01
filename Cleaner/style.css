@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid purple;
+}
+
+#user-entry-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*Now using translate to put it in center*/
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+}
+
+form label {
+    border: 2px solid coral;
+    text-align: center;
+}
+
+#keyword {
+    height: 30px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+[for="keyword"] {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+
+
