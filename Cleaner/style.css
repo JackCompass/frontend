@@ -40,7 +40,10 @@ form label {
     height: 35px;
     border-radius: 30px;
     border-style: solid;
-
+    border-color: black;
+    background-color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
 }
 
 
